@@ -12,6 +12,7 @@ name: Publish Docker image
 on:
   push:
     branches: [main]
+    tags: ["v*"]
 
 env:
   IMAGE_NAME: danfoster/zaphod-power
